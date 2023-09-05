@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="" type="image/png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>IBC</title>
+</head>
+<body>
+        <div class="loader" id="loader">
+            <div class="loader-icon"></div>
+        </div>
+        <nav>
+            <div class="logo">
+                <a href="index.html"> Avaliação de Preferência Cerebral </a>
+            </div>
+
+            <ul>
+                <li> <a href="index.html"> Home </a> </li>
+            </ul>
+
+        </nav>
+        <section class="banner" style="background: linear-gradient(rgba(0,0,0,0.281), rgba(0,0,0,0.308)), url('layered-waves-haikei\ \(1\).svg'); background-repeat: no-repeat; background-size:  cover;">
+            <div class="texto">
+            <h1 class="titulo">Perfil Tubarão</h1>
+            <h2 class="sub_titulo">A característica principal do tubarão é "fazer rápido"</h2> <br>
+            <h3 class="frase">Seu senso de urgência é apurado e por isso prima pela ação e <br>
+                iniciativa. As pessoas com perfil de tubarão são motivadas à ação, <br>
+                impulsivos e práticos, porém não gostam de delegar <br>
+                poder. Os indivíduos com esse perfil fazem do modo mais fácil, <br>
+                podem ter problemas de relacionamento e tendem a resolver seus problemas <br>
+                sozinhos para não ter que repetir tarefas. Gostam de vencer os desafios <br>
+                que lhe são impostos e tem como foco principal os resultados. <br>
+                
+                Pontos Fortes: Fazer com que ocorra, parar com a burocracia. <br>
+
+                Pontos de Melhoria: Relacionamento complicado, fazer do jeito mais fácil. <br>
+            
+                Valores: Resultados. <br>
+
+                <h1>Resultado</h1>
+                <h1 id ="resultado"></h1>
+                <a href="tubarao.html" target="_blank"><h1 id="tubarao"></h1></a>
+            </h3>
+            </div>
+        </section>
+
+        <script>
+            //Acessando o dado salvo em localStorage e atribuindo ao h1 da página
+             document.getElementById("resultado").innerHTML = localStorage.getItem('porcTubarao');
+        </script>
+
+        <footer class="footer">
+            <p>&copy; 2023 Todos os direitos reservados</p>
+        </footer>
+    
+</body>
+</html>

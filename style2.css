@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.questionario {
+    background-image: url(fundo_questionario.svg);
+}
+
+.tubarao {
+    background-image: url(fundo_tubarao.svg);
+}
+
+.lobo {
+    background-image: url(fundo_lobo.svg);
+}
+
+.aguia {
+    background-image: url(fundo_aguia.svg);
+}
+
+.gato {
+    background-image: url(fundo_gato.svg);
+}
+
+.linha {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #a4c3b2;
+    margin-bottom: 10px;
+    border-color: #cad2c5;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.pergunta {
+    margin-bottom: 15px;
+}
+
+.resposta {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #2f3e46;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li{
+    margin-left: 7px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: #2f3e46;
+    margin-bottom: 10px;
+    padding: 25px ;
+}
+
+#btn {
+    color: black;
+    background-color: #a4c3b2;
+    border: 1px solid #2f3e46;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 50px;
+}

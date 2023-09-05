@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="" type="image/png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>IBC</title>
+</head>
+<body>
+        <div class="loader" id="loader">
+            <div class="loader-icon"></div>
+        </div>
+        <nav>
+            <div class="logo">
+                <a href="index.html"> Avaliação de Preferência Cerebral </a>
+            </div>
+
+            <ul>
+                <li> <a href="index.html"> Home </a> </li>
+            </ul>
+
+        </nav>
+        <section class="banner" style="background: linear-gradient(rgba(0,0,0,0.281), rgba(0,0,0,0.308)), url('layered-waves-haikei\ \(1\).svg'); background-repeat: no-repeat; background-size:  cover;">
+            <div class="texto">
+            <h1 class="titulo">Perfil Gato</h1>
+            <h2 class="sub_titulo">O Gato tem como característica principal o “fazer junto”</h2> <br>
+            <h3 class="frase">Pessoas com perfil do gato são sensíveis e tem um bom <br>
+                relacionamento no ambiente empresarial, mantendo a comunicação harmoniosa. Para isso podem esconder conflitos, <br>
+                olocar a felicidade acima dos resultados e manipular através dos sentimentos. Esses indivíduos têm grande aceitação <br>
+                social e facilidade de construir o consenso, o que provoca o reconhecimento da <br>
+                equipe e inspira a autoridade no trabalho em equipe.<br>
+
+                Pontos Fortes: Trabalhar em equipe, comunicação aberta. <br>
+
+                Pontos de Melhoria: Esconder conflitos, manipular através dos sentimentos. <br>
+            
+                Valores: Felicidade e igualdade. <br>
+
+                <h1>Resultado</h1>
+                <h1 id ="resultado"></h1>
+                <a href="gato.html" target="_blank"><h1 id="gato"></h1></a>
+            </h3>
+            </div>
+        </section>
+
+        <script>
+            //Acessando o dado salvo em localStorage e atribuindo ao h1 da página
+             document.getElementById("resultado").innerHTML = localStorage.getItem('porcGato');
+        </script>
+
+        <footer class="footer">
+            <p>&copy; 2023 Todos os direitos reservados</p>
+        </footer>
+    
+</body>
+</html>
